@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
-import heroImage from "@/assets/echo-hero.jpg";
 import { Mic, Puzzle, FileText, Brain, Chrome, CheckCircle2 } from "lucide-react";
 
 const Index = () => {
@@ -76,15 +75,6 @@ const Index = () => {
                 </Button>
               </div>
             </article>
-
-            <aside className="relative">
-              <img
-                src={heroImage}
-                alt="Futuristic AI interface visualizing Echo voice-powered web automation"
-                loading="eager"
-                className="w-full rounded-xl border shadow-xl"
-              />
-            </aside>
           </div>
         </section>
 
