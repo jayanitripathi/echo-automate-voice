@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
-import heroImage from "@/assets/echo-hero.jpg";
+
 import { Mic, Puzzle, FileText, Brain, Chrome, CheckCircle2 } from "lucide-react";
 
 const Index = () => {
@@ -59,7 +59,7 @@ const Index = () => {
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 -z-10 bg-gradient-primary opacity-20" aria-hidden />
-          <div className="container grid gap-10 py-20 md:grid-cols-2 md:gap-12 md:py-28">
+          <div className="container grid gap-10 py-20 md:gap-12 md:py-28">
             <article className="flex flex-col justify-center">
               <h1 className="font-display text-4xl leading-tight md:text-5xl lg:text-6xl animate-enter">
                 Echo: Your Voice-Powered Assistant for Seamless Web Automation
@@ -77,14 +77,6 @@ const Index = () => {
               </div>
             </article>
 
-            <aside className="relative">
-              <img
-                src={heroImage}
-                alt="Futuristic AI interface visualizing Echo voice-powered web automation"
-                loading="eager"
-                className="w-full rounded-xl border shadow-xl"
-              />
-            </aside>
           </div>
         </section>
 
