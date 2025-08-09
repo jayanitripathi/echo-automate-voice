@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
 import heroImage from "@/assets/echo-hero.jpg";
-import { Puzzle, FileText, Brain, Chrome, CheckCircle2 } from "lucide-react";
+import { Mic, Puzzle, FileText, Brain, Chrome, CheckCircle2 } from "lucide-react";
 
 const Index = () => {
   const jsonLd = {
@@ -98,7 +98,7 @@ const Index = () => {
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <article className="rounded-lg border bg-card p-6 shadow-sm transition hover:shadow-md">
-                
+                <Mic className="text-[hsl(var(--brand))]" />
                 <h3 className="mt-4 font-semibold">Voice Command Task Automation</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Automate tasks like ordering products, applying for jobs, and generating leads using just your voice.</p>
               </article>
@@ -135,7 +135,7 @@ const Index = () => {
                 <p className="mt-2 text-sm text-muted-foreground">Add Echo to Chrome in seconds and start automating instantly.</p>
               </article>
               <article className="rounded-lg border bg-card p-6">
-                
+                <Mic />
                 <h3 className="mt-4 font-semibold">Speak your commands</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Say: "Order from Amazon", "Apply for the Data Science job", and more.</p>
               </article>
